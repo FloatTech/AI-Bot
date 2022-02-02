@@ -19,6 +19,11 @@ tensorflow==2.7.0
 
 
 ## 使用方法
+# 第一种：
+- TF1_GPT-2 : [USE](https://github.com/FloatTech/AI-Bot/blob/main/TF1_GPT-2/DEVELOPERS.md)
+
+# 第二种main ：
+
 
 
 
