@@ -1,4 +1,5 @@
 ## 使用TF1的OpenAI官方预训练模型的实现
+- [详情](https://github.com/FloatTech/AI-Bot/blob/main/TF1_GPT-2/DEVELOPERS.md)
 
 # 使用前准备
 ```
