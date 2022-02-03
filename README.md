@@ -1,5 +1,7 @@
 # AI-Bot
+
 一个基于watermelon改造的OpenAI-GPT-2的智能机器人
+- ![Star](https://img.shields.io/github/stars/FloatTech/AI-Bot)  ![MIT](https://img.shields.io/github/license/FloatTech/AI-Bot)
 ## 在Binder上直接运行测试
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FloatTech/AI-Bot/HEAD)
 ## 目前有两种实现方式
