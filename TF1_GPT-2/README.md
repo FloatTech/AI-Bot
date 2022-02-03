@@ -25,3 +25,5 @@
 ```
 
 # 实现API
+- [API实现](https://github.com/FloatTech/AI-Bot/blob/main/TF1_GPT-2/API.py)
+- 注:API的功能为输入一段命题使GPT-2生成一篇文章，若想实现其他功能欢迎PR！！
