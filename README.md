@@ -10,7 +10,12 @@
 
 ## 贡献
 
-
+## 感谢
+- [OpenAI](https://github.com/openai/gpt-2)
+- [理理](https://github.com/Yiwen-Chan)
+- [皮皮佬](https://github.com/DawnNights)
+- [源文雨](https://github.com/fumiama)
+- [myr](https://github.com/MayuriNFC)
 ## 许可证
 [MIT](https://github.com/FloatTech/AI-Bot/blob/main/LICENSE)
 
