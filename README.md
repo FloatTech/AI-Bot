@@ -1,6 +1,7 @@
 # AI-Bot
 一个基于watermelon改造的OpenAI-GPT-2的智能机器人
-
+## 在Binder上直接运行测试
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FloatTech/AI-Bot/HEAD)
 ## 目前有两种实现方式
 - [TF2的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF2_GPT-2)
 - [TF1的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2)
