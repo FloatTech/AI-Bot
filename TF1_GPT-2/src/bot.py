@@ -168,10 +168,10 @@ class GeneratePlugin(Plugin) :
         return self.on_full_match('生成文章')
     
     def handle(self):
-        a = 'hello'
+        a = 'hello'#生成文章的命题（脑累了，过几天将其与群内信息接在一起实现自定义命题）
 
         GPT.interact_model(
-                model_name='124M',
+                model_name='124M',#模型名称 
                 seed=None,
                 nsamples=1,
                 batch_size=1,
@@ -179,10 +179,10 @@ class GeneratePlugin(Plugin) :
                 temperature=1,
                 top_k=0,
                 top_p=1,
-                models_dir='C:\\Users\\xbj0916\\Desktop\\新建文件夹\\models\\',
+                models_dir='C:\\Users\\xbj0916\\Desktop\\新建文件夹\\models\\',# 将这里改为你自己所通过download_model.py下载的预训练模型路径
                 Input_m= '{}'.format(a))
         
-        f = open('s.txt').read()
+        f = open('s.txt').read()#读取所生成的文本文件详情请见interact_modelsample.py
         self.send_private_msg(text(f))#这里是私发可以改为群发
             
         
