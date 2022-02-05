@@ -14,7 +14,22 @@
 
 
 # 使用时一定要注意将所下载预训练模型的路径添加到api实现文件模型参数的model_dir =中
+```python
 
+def interact_model(
+    model_name='124M',
+    seed=None,
+    nsamples=1,
+    batch_size=1,
+    length=None,
+    temperature=1,
+    top_k=0,
+    top_p=1,
+    models_dir='models',#更改为自己所下载的预训练模型地址
+    input_m = ''#输入文本接口可在需要调用时定义一个变量并将其索引引用示例请看解释：
+):
+
+```
 # 运行官方Demo
 
 ```
