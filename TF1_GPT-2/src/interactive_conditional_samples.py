@@ -9,7 +9,7 @@ import tensorflow as tf
 import model, sample, encoder
 
 def interact_model(
-    model_name='124M',
+    model_name='',#模型名称
     seed=None,
     nsamples=1,
     batch_size=1,
@@ -17,7 +17,7 @@ def interact_model(
     temperature=1,
     top_k=0,
     top_p=1,
-    models_dir='models',
+    models_dir='',#预训练模型路径
     input_m = ''#输入文本接口可在需要调用时定义一个变量并将其索引引用示例请看解释：
 ):
     """
@@ -76,9 +76,10 @@ def interact_model(
         ckpt = tf.train.latest_checkpoint(os.path.join(models_dir, model_name))
         saver.restore(sess, ckpt)
 
-        while True:
+        if True:#之前使用while循环
             raw_text = input_m#input("Model prompt >>> ")
-            while not raw_text:
+            if not raw_text:# 之前使用while循环
+
                 print('Prompt should not be empty!')
                 raw_text = input_m#input("Model prompt >>> ")
             context_tokens = enc.encode(raw_text)
@@ -90,6 +91,11 @@ def interact_model(
                 for i in range(batch_size):
                     generated += 1
                     text = enc.decode(out[i])
+
+                    f = open('s.txt','w')#将生成文件写入并保存
+                    f.write(text)
+                    f.close()
+
                     print("=" * 40 + " SAMPLE " + str(generated) + " " + "=" * 40)
                     print(text)
             print("=" * 80)
