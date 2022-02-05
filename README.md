@@ -1,5 +1,5 @@
 # AI-Bot
-
+[floattech 原版bot.py](https://github.com/floattech/AI-Bot/bot.py)
 一个基于watermelon改造的OpenAI-GPT-2的智能机器人
 - ![Star](https://img.shields.io/github/stars/FloatTech/AI-Bot)  ![MIT](https://img.shields.io/github/license/FloatTech/AI-Bot)
 ## 在Binder上直接运行测试
