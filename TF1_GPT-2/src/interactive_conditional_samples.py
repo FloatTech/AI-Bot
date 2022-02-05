@@ -18,7 +18,7 @@ def interact_model(
     top_k=0,
     top_p=1,
     models_dir='models',
-    input_m = ''
+    input_m = ''#输入文本接口可在需要调用时定义一个变量并将其索引引用示例请看解释：
 ):
     """
     Interactively run the model
@@ -39,6 +39,12 @@ def interact_model(
      special setting meaning no restrictions. 40 generally is a good value.
      :models_dir : path to parent folder containing model subfolders
      (i.e. contains the <model_name> folder)
+     
+     ### 使用模型参数 Input_m  api示例:
+     : >>> import ....
+     : >>> a = str(input())
+     : >>> interact_model(input_m = a)
+     
     """
     models_dir = os.path.expanduser(os.path.expandvars(models_dir))
     if batch_size is None:
