@@ -5,7 +5,7 @@ import logging
 import threading
 import collections
 import json as json_
-from typing_extensions import Self
+
 
 import websocket
 
@@ -157,7 +157,12 @@ class TestPlugin3(Plugin):
     def handle(self):
         self.send_msg(text("请不要戳我 >_<"))
 
-
+class TPugin(Plugin) :
+    def match(self) :
+        return self.on_full_match('生成文章')
+    
+    def handle(self):
+        self.send_msg(text('构思中可能需要几分钟取决于我的小脑袋.......'））
 
 
 
@@ -183,7 +188,7 @@ class GeneratePlugin(Plugin) :
                 Input_m= '{}'.format(a))
         
         f = open('s.txt').read()#读取所生成的文本文件详情请见interact_modelsample.py
-        self.send_private_msg(text(f))#这里是私发可以改为群发
+        self.send_private_msg(text('哒哒哒~~~生成完成：{}'.format(f)))#这里是私发可以改为群发
             
         
 
