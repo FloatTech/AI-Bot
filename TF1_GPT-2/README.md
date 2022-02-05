@@ -4,7 +4,7 @@
 - [Bot.py实现](https://github.com/FloatTech/AI-Bot/blob/main/TF1_GPT-2/src/bot.py)
 # 使用前准备
 ```
-1. >> pip install tensorflow==1.12.0
+1. >> pip install tensorflow==1.15.0
 2. >> pip install -r requirements.txt
 3. >> python download_model.py 124M //选择模型参数大小 124M,355M,774M,1558M
       python download_model.py 355M
