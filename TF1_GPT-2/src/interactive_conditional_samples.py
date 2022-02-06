@@ -18,7 +18,7 @@ def interact_model(
     top_k=0,
     top_p=1,
     models_dir='',#预训练模型路径
-    input_m = ''#输入文本接口可在需要调用时定义一个变量并将其索引引用示例请看解释：
+    Input_m = ''#输入文本接口可在需要调用时定义一个变量并将其索引引用示例请看解释：
 ):
     """
     Interactively run the model
