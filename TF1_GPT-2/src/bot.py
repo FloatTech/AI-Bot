@@ -5,7 +5,8 @@ import logging
 import threading
 import collections
 import json as json_
-
+import os
+import psutil
 
 import websocket
 
@@ -148,6 +149,48 @@ class TestPlugin2(Plugin):
     def handle(self):
         self.send_msg(text("没有菜单"))
 
+class ADD(Plugin):
+    
+    def match(self) :
+        
+        return self.only_to_me() and self.on_full_match("好慢啊你")
+
+    def handle(self):
+        
+        self.send_msg(at(self.context["user_id"]),text("要不你来试试？！！呜呜呜😭"))
+
+
+class SELF(Plugin) :
+    
+    def match(self) :
+        
+        return self.on_full_match("检查身体")
+
+    def handle(self):
+        
+
+        info = os.system('ver')
+
+       
+
+        mem = psutil.virtual_memory()
+# 系统总计内存
+        All_M = float(mem.total) / 1024 / 1024 / 1024
+# 系统已经使用内存
+        use_ing = float(mem.used) / 1024 / 1024 / 1024
+
+# 系统空闲内存
+        free = float(mem.free) / 1024 / 1024 / 1024
+
+        all_m = '系统总计内存:%d.3GB' % All_M
+        Use = '系统已经使用内存:%d.3GB' % use_ing
+        Free = '系统空闲内存:%d.3GB' % free
+        self.send_msg(text('{}\n\n{}\n\n{}\n\n{}'.format(info,all_m,Use,Free)))
+
+        
+        
+        
+        
 
 class TestPlugin3(Plugin):
     def match(self):  # 戳一戳机器人则回复
@@ -157,6 +200,7 @@ class TestPlugin3(Plugin):
     def handle(self):
         self.send_msg(text("请不要戳我 >_<"))
 
+        
 class TPugin(Plugin) :
     def match(self) :
         return self.on_full_match('生成文章')
@@ -169,7 +213,7 @@ class TPugin(Plugin) :
 
 class GeneratePlugin(Plugin) :
     def match(self) :
-        
+    
         return self.on_full_match('生成文章')
     
     def handle(self):
