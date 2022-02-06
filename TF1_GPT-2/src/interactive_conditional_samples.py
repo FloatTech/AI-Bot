@@ -92,7 +92,7 @@ def interact_model(
                     generated += 1
                     text = enc.decode(out[i])
 
-                    f = open('s.txt','w')#将生成文件写入并保存
+                    f = open('s.txt','w',encoding='utf-8')#将生成文件写入并保存
                     f.write(text)
                     f.close()
 
