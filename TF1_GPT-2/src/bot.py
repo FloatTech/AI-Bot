@@ -169,7 +169,7 @@ class SELF(Plugin) :
     def handle(self):
         
 
-        info = os.system('ver')
+        info = os.system('ver')#对于win用户
 
        
 
@@ -231,7 +231,7 @@ class GeneratePlugin(Plugin) :
                 models_dir='C:\\Users\\xbj0916\\Desktop\\新建文件夹\\models\\',# 将这里改为你自己所通过download_model.py下载的预训练模型路径
                 Input_m= '{}'.format(a))
         
-        f = open('s.txt').read()#读取所生成的文本文件详情请见interact_modelsample.py
+        f = open('s.txt',encoding='utf-8').read()#读取所生成的文本文件详情请见interact_modelsample.py
         self.send_private_msg(text('哒哒哒~~~生成完成：{}'.format(f)))#这里是私发可以改为群发
             
         
