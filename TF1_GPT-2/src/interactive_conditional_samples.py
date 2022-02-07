@@ -80,6 +80,7 @@ def interact_model(
             raw_text = input_m#input("Model prompt >>> ")
             if not raw_text:# 之前使用while循环
 
+                
                 print('Prompt should not be empty!')
                 raw_text = input_m#input("Model prompt >>> ")
             context_tokens = enc.encode(raw_text)
