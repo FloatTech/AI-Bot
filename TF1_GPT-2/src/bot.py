@@ -206,7 +206,7 @@ class TPugin(Plugin) :
         return self.on_full_match('生成文章')
     
     def handle(self):
-        self.send_msg(text('构思中可能需要几分钟取决于我的小脑袋.......'））
+        self.send_msg(text('构思中可能需要几分钟取决于我的小脑袋.......'))
 
 
 
