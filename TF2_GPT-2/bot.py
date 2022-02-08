@@ -249,7 +249,7 @@ class GeneratePlugin(Plugin) :
         return self.on_full_match('生成文章')
     
     def handle(self):
-        a = 'hello'
+        
 
         GPT.sequence_gen(
             model_path = "C:\\Users\\xbj0916\\Desktop\\TF2_GPT-2\\TF2_GPT\\model\\",
@@ -260,7 +260,7 @@ class GeneratePlugin(Plugin) :
             top_k = 8,
             top_p = 0.9,
             nucleus_sampling = False, 
-            context = "sample context")
+            context = "sample context")#文章题目
 
         
         f = open('s.txt',encoding='utf-8').read()
