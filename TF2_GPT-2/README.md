@@ -2,7 +2,7 @@
 ### TF2_GPT的地址[TF2_GPT-2](https://github.com/xhs753/tf2_gpt-2)
 ## 使用注意
   - Api.py和bot.py必须在TF2_GPT-2的目录中！！
-   ## 目录图:[image]()
+   ## 目录图:![image](https://github.com/FloatTech/AI-Bot/blob/main/TF2_GPT-2/%E6%8D%95%E8%8E%B7.PNG)
 ## 使用方法
      
      1. >> git clone https://github.com/xhs753/tf2_gpt-2
