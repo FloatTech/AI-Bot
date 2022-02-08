@@ -51,8 +51,11 @@ GPT.interact_model(
 - 注:API的功能为输入一段命题使GPT-2生成一篇文章，若想实现其他功能欢迎PR！！
 # 使用
 ```
-- 新建py文件
-- 在py中  import  interactive_conditional_samples 
-- 并  from interactive_conditional_samples import 其中的api模型
-- 模型参数中有  input_m  (输入文本接口)
+  1. >> python download_model.py 124M
+  ## 记得修改完bot.py的模型路径后再运行bot.py
+  2. >> python src/bot.py
+  $ ./go-cqhttp
+  or win >go-cqhttp.exe
+  
+  
 ```
