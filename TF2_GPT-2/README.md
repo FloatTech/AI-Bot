@@ -3,7 +3,7 @@
 ## 使用注意
   - 使用前需要先克隆下[TF2_GPT-2](https://github.com/xhs753/tf2_gpt-2)的仓库
   - 使用前需要下载对应的[go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases) 可执行文件
-  - Api.py  和  bot.py  必须在 TF2_GPT-2 的目录下！！！！
+  - 本仓库指的是TF2_GPT-2中的Api.py  和  bot.py  必须在 TF2_GPT-2 的目录下！！！！
    ## 目录图:![image](https://github.com/FloatTech/AI-Bot/blob/main/TF2_GPT-2/%E6%8D%95%E8%8E%B7.PNG)
 ## 使用方法
      
