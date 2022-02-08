@@ -1,4 +1,5 @@
 ## 使用TF1的OpenAI官方预训练模型的实现
+- Python3.6
 - [官方模型详情](https://github.com/FloatTech/AI-Bot/blob/main/TF1_GPT-2/DEVELOPERS.md)
 - 模型经过改动方便使用
 - [Bot.py实现](https://github.com/FloatTech/AI-Bot/blob/main/TF1_GPT-2/src/bot.py)
