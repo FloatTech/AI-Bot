@@ -32,6 +32,18 @@ GPT.interact_model(
 )
 
 ```
+
+# 使用
+```
+  1. >> python download_model.py 124M
+  ## 记得修改完bot.py的模型路径后再运行bot.py
+  2. >> python src/bot.py
+  $ ./go-cqhttp
+  or win >go-cqhttp.exe
+  
+  
+```
+
 # 运行官方Demo（若不成功需要进行改动生成模块）
 
 ```
@@ -49,13 +61,4 @@ GPT.interact_model(
 - [bot.py实现](https://github.com/FloatTech/AI-Bot/blob/main/TF1_GPT-2/src/bot.py)
 - ![Image](https://github.com/FloatTech/AI-Bot/blob/main/TF1_GPT-2/%E6%8D%95%E8%8E%B7.PNG?raw=true)
 - 注:API的功能为输入一段命题使GPT-2生成一篇文章，若想实现其他功能欢迎PR！！
-# 使用
-```
-  1. >> python download_model.py 124M
-  ## 记得修改完bot.py的模型路径后再运行bot.py
-  2. >> python src/bot.py
-  $ ./go-cqhttp
-  or win >go-cqhttp.exe
-  
-  
-```
+
