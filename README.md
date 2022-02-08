@@ -12,10 +12,10 @@
 - [TF1的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2)  
   - [其Bot.py实现](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2/src/bot.py)
 # [go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases)
-# 进度
+# 进度(由上到下依次更新)
 - 目前 [TF1的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2)已经可以调用API --2022/02/03
 - 目前 [TF1的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2)已经可以使用文章生成功能 --2022/02/05
-
+- 目前 [TF2的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF2_GPT-2)已经可以使用文章生成功能 --2022/02/08
 ## 贡献
 
 ## 感谢
