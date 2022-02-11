@@ -1,6 +1,7 @@
 # AI-Bot
 - 一个基于WATERMELON重构的TF2_GPT-2的AI-Bot
 
+
 [FloatTech 原版bot.py](https://github.com/floattech/AI-Bot/bot.py)
 
 - ![Star](https://img.shields.io/github/stars/FloatTech/AI-Bot)  ![MIT](https://img.shields.io/github/license/FloatTech/AI-Bot)
@@ -16,6 +17,7 @@
 - 目前 [TF1的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2)已经可以调用API --2022/02/03
 - 目前 [TF1的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2)已经可以使用文章生成功能 --2022/02/05
 - 目前 [TF2的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF2_GPT-2)已经可以使用文章生成功能 --2022/02/08
+- 目前 Pytorch的GPT-2研发中 --2022/02/11
 ## 贡献
 
 ## 感谢
