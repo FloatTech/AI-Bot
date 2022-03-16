@@ -1,8 +1,6 @@
 # AI-Bot
 - 一个基于WATERMELON重构的TF2_GPT-2的AI-Bot
-
-
-[FloatTech 原版bot.py](https://github.com/floattech/AI-Bot/bot.py)
+- [FloatTech 原版bot.py](https://github.com/floattech/AI-Bot/bot.py)
 
 - ![Star](https://img.shields.io/github/stars/FloatTech/AI-Bot)  ![MIT](https://img.shields.io/github/license/FloatTech/AI-Bot)
 ## 在Binder上直接运行测试
