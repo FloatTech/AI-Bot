@@ -1,5 +1,5 @@
 # AI-Bot
-- 一个基于WATERMELON重构的TF2_GPT-2的AI-Bot
+- 一个基于WATERMELON重构的GPT-2的AI-Bot
 
 
 [FloatTech 原版bot.py](https://github.com/floattech/AI-Bot/bot.py)
@@ -10,7 +10,7 @@
 ## 目前有三种实现方式（每一种实现中都自带自己所实现的```Bot.py```文件，注意：每次运行时需要先运行```go-cqhttp```再运行```bot.py```）
 |实现
 |---------------------------------------------------
-| [Pytorch的CNGPT](https://github.com/StarxSky/GPT-2/tree/main/CNGPT) -------[其```Bot.py```实现]()|
+| [Pytorch的CNGPT](https://github.com/StarxSky/GPT-2/tree/main/CNGPT) -------[其```Bot.py```实现](https://github.com/FloatTech/AI-Bot/blob/main/CNGPT/bot.py)|
 | [TF2的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF2_GPT-2) -------[其```Bot.py```实现](https://github.com/FloatTech/AI-Bot/blob/main/TF2_GPT-2/bot.py)
 | [TF1的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2) --------[其```Bot.py```实现](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2/src/bot.py)|
 
