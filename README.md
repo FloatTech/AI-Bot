@@ -11,7 +11,7 @@
 |实现
 |---------------------------------------------------
 | [Pytorch的CNGPT](https://github.com/StarxSky/GPT-2/tree/main/CNGPT) -------[其```Bot.py```实现]()|
-| [TF2的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF2_GPT-2) -------[其```Bot.py```实现]()
+| [TF2的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF2_GPT-2) -------[其```Bot.py```实现](https://github.com/FloatTech/AI-Bot/blob/main/TF2_GPT-2/bot.py)
 | [TF1的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2) --------[其```Bot.py```实现](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2/src/bot.py)|
 
   
