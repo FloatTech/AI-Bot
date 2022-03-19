@@ -1,11 +1,12 @@
  # 基于StarxSky的CNGPT中文GPT-2接入Bot的实现
 
  ## 使用方法（和以前一样先上目录图） 
- ![im](https://github.com/FloatTech/AI-Bot/edit/main/CNGPT/READ/t.png)
+ ![im](https://github.com/FloatTech/AI-Bot/blob/main/CNGPT/READ/t.PNG?raw=true)
  - Steps 1 :
  - 使用前需要先git clone 克隆下来[GPT-2](https://github.com/StarxSky/GPT-2)的仓库
  - 并在其中找到```CNGPT```文件，进入
  - 在```CNGPT```目录下执行```pip install -r requirments.txt```安装所需的包
+ - 将所下载的预训练模型或者已训练好的模型放置在```Pre_models```目录下
  - 将此仓库的```API.py```和```bot.py```移动到```CNGPT```目录下
  ### 您需要修改```bot.py```的以下代码：
  - 将您下载的或者通过```CNGPT```训练的模型填写到对应的位置
