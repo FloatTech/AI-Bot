@@ -1,10 +1,11 @@
 # AI-Bot
-- 一个基于WATERMELON重构的GPT-2的AI-Bot
-
-
-[FloatTech 原版bot.py](https://github.com/floattech/AI-Bot/bot.py)
-
 - ![Star](https://img.shields.io/github/stars/FloatTech/AI-Bot)  ![MIT](https://img.shields.io/github/license/FloatTech/AI-Bot)
+
+- 一个基于WATERMELON重构的GPT-2的AI-Bot
+- ## [go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases)
+- ### [FloatTech 原版bot.py](https://github.com/floattech/AI-Bot/bot.py)
+
+
 ## 在Binder上直接运行测试
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FloatTech/AI-Bot/HEAD)
 ## 目前有三种实现方式（每一种实现中都自带自己所实现的```Bot.py```文件，注意：每次运行时需要先运行```go-cqhttp```再运行```bot.py```）
@@ -15,8 +16,9 @@
 | [TF1的GPT-2](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2) --------[其```Bot.py```实现](https://github.com/FloatTech/AI-Bot/tree/main/TF1_GPT-2/src/bot.py)|
 
   
-# [go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases)
-# 进度(由上到下依次更新)
+
+
+
 |进度
 |----------------------
 | 目前 [CNGPT-2](https://github.com/StarxSky/GPT-2/tree/main/CNGPT)(基于Pytorch进行重构GPT-2)现已移植到Bot上可以实现中文生成 --2022/03/19
