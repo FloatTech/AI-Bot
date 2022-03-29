@@ -35,8 +35,8 @@
 | [皮皮佬](https://github.com/DawnNights)
 | [源文雨](https://github.com/fumiama)
 | [myr](https://github.com/MayuriNFC)
-## 许可证
-[MIT](https://github.com/FloatTech/AI-Bot/blob/main/LICENSE)
+# [许可证](https://github.com/FloatTech/AI-Bot/blob/main/LICENSE)
+
 
 
 
