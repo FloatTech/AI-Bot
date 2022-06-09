@@ -1,6 +1,8 @@
 # AI-Bot
 - ![Star](https://img.shields.io/github/stars/FloatTech/AI-Bot)  ![MIT](https://img.shields.io/github/license/FloatTech/AI-Bot)
 
+
+
 - 一个基于WATERMELON重构的GPT-2的AI-Bot
 - ## [go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases)
 - ### [FloatTech 原版bot.py](https://github.com/floattech/AI-Bot/bot.py)
